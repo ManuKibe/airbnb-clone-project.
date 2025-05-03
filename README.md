@@ -46,19 +46,19 @@ Docker: Containerization tool for consistent development and deployment environm
 CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
 </details>  
 <details>
-     <summary>👥 Team Roles<summary>
+     <summary>👥 Team Roles</summary>
 Backend Developer: Responsible for implementing API endpoints, database schemas, and business logic.
 Database Administrator: Manages database design, indexing, and optimizations.
 DevOps Engineer: Handles deployment, monitoring, and scaling of the backend services.
 QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards.
     </details>
 <details>
-     <summary>📈 API Documentation Overview<summary>
+     <summary>📈 API Documentation Overview</summary>
 REST API: Detailed documentation available through the OpenAPI standard, including endpoints for users, properties, bookings, and payments.
 GraphQL API: Provides a flexible query language for retrieving and manipulating data.
  </details>
   <details>  
-       <summary>📌Endpoints Overview<summary>
+       <summary>📌Endpoints Overview</summary>
 REST API Endpoints
 Users
 
@@ -203,7 +203,7 @@ A review is written by one user.
 
 A review is associated with one property.
   
-</details>  
+</details> 
 <details>
     <summary>🚀 Feature Breakdown</summary>
 🔐 User Management
