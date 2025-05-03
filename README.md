@@ -46,19 +46,19 @@ Docker: Containerization tool for consistent development and deployment environm
 CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
 </details>  
 <details>
-**👥 Team Roles**
+     <summary>👥 Team Roles<summary>
 Backend Developer: Responsible for implementing API endpoints, database schemas, and business logic.
 Database Administrator: Manages database design, indexing, and optimizations.
 DevOps Engineer: Handles deployment, monitoring, and scaling of the backend services.
 QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards.
     </details>
 <details>
-**📈 API Documentation Overview**
+     <summary>📈 API Documentation Overview<summary>
 REST API: Detailed documentation available through the OpenAPI standard, including endpoints for users, properties, bookings, and payments.
 GraphQL API: Provides a flexible query language for retrieving and manipulating data.
  </details>
   <details>  
-📌 **Endpoints Overview**
+       <summary>📌Endpoints Overview<summary>
 REST API Endpoints
 Users
 
@@ -93,6 +93,7 @@ PUT /reviews/{review_id}/ - Update a specific review
 DELETE /reviews/{review_id}/ - Delete a specific review 
 </details>
 <details>
+    <summary>📦 Database Design</summary>
 🔹 Users
 Represents both hosts and guests using the platform.
 
@@ -203,7 +204,8 @@ A review is written by one user.
 A review is associated with one property.
   
 </details>  
-**🚀 Feature Breakdown**
+<details>
+    <summary>🚀 Feature Breakdown</summary>
 🔐 User Management
 This feature handles user registration, authentication, and profile management. The system provides safe authorization procedures while enabling users with different roles to use the platform securely.
 
@@ -226,7 +228,7 @@ The backend APIs implement documentation through OpenAPI standard which enables 
 The system implements caching together with database indexing techniques to boost its operational speed. The optimization methods decrease program loading periods and maintain constant growth capacity throughout expanding application needs. 
 </details>  
 <details> 
-  **🔒 API Security**
+    <summary>🔒 API Security</summary>
 🔑 Authentication
 The security token JWT (JSON Web Tokens) allows secure user authentication on all network endpoints. Users are restricted from performing sensitive operations including bookings and payments through a system that verifies their identity before they can access.
 
