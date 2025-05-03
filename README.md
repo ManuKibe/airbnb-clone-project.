@@ -244,3 +244,14 @@ Users will conduct payments through endpoints secured by HTTPS and third-party p
 🔐 Data Protection
 All user passwords will receive hash encryption while all sensitive fields become encrypted for storage. The security measures protect individual information together with transaction-related data from unauthorized access and breaches.
 </details>
+<details>
+    <summary>🔄 CI/CD Pipeline</summary>
+🧰 Tools Used
+GitHub Actions executes automated testing routines that check code quality as well as backend deployment processes through each code change or pull request.
+
+Docker supplies standardized environments through containers that support development testing and deployment.
+
+Docker Compose: Manages multi-container applications for local testing.
+
+The backend deployment requires Heroku / AWS / DigitalOcean as hosting platforms (use optional if available).
+</details>
