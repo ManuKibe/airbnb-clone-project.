@@ -13,7 +13,7 @@ Review System: Allow users to leave reviews and ratings for properties.
 Data Optimization: Ensure efficient data retrieval and storage through database optimizations.
 </details>
 <details>
-**🛠️ Features Overview**
+     <summary>🛠️ Features Overview</summary>
 1. API Documentation
 OpenAPI Standard: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.
 Django REST Framework: Provides a comprehensive RESTful API for handling CRUD operations on user and property data.
@@ -38,7 +38,7 @@ Indexing: Implement indexes for fast retrieval of frequently accessed data.
 Caching: Use caching strategies to reduce database load and improve performance.
 </details>  
 <details>
-**⚙️ Technology Stack**
+    <summary>🛠️ Features Overview<summary>
 Django: A high-level Python web framework used for building the RESTful API.
 Django REST Framework: Provides tools for creating and managing RESTful APIs.
 PostgreSQL: A powerful relational database used for data storage.
